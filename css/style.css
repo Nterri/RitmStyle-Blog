@@ -746,6 +746,7 @@ main .content-item .content-item__body {
   flex: 0 1 50%;
   position: relative;
   padding-right: 134px;
+  padding-left: 0px;
 }
 
 main .content-item .content-item__image {
@@ -1069,6 +1070,10 @@ main .content-blog__image img {
 
   main .content-item .content-item__body {
     padding-right: calc(20px + 114 * ((100vw - 320px) / 976));
+  }
+
+  main .content-item .content-item__body {
+    padding-left: calc(0px + 0 * ((100vw - 320px) / 976));
   }
 
   main .content-item__name.news-name {
